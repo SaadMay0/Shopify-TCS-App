@@ -52,11 +52,11 @@ if (process.env.SHOPIFY_VITE_HMR_USE_POLLING) {
   };
 }
 
-console.log(
-  hmrConfig,
-  "000000000000999999------90900000000000000000000--9-09",
-  process.env.SHOPIFY_API_KEY
-);
+// console.log(
+//   hmrConfig,
+//   "000000000000999999------90900000000000000000000--9-09",
+//   process.env.SHOPIFY_API_KEY
+// );
 
 export default defineConfig({
   root: dirname(fileURLToPath(import.meta.url)),

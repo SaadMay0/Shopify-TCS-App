@@ -66,7 +66,7 @@ git commit -m "Initial version"
    ```yaml
    build:
      docker:
-       web: Dockerfile
+       web: npm run dev
      config:
        SHOPIFY_API_KEY: ReplaceWithKEYFromEnvCommand
    ```
