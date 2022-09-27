@@ -6,7 +6,7 @@
   "scripts": {
     "shopify": "shopify",
     "build": "shopify app build",
-    "dev": "shopify app dev",
+    "dev": "cross-env NODE_ENV=development nodemon index.js --ignore ./web/frontend",
     "start": "shopify app dev",
     "info": "shopify app info",
     "scaffold": "shopify app scaffold",
